@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_am"
+    tools:context=".Rukun_Iman">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_am">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24sp"
+            android:layout_marginLeft="24sp"
+            android:layout_marginRight="24sp"
+            android:background="@drawable/radius_panel_menu1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24sp"
+                android:layout_marginRight="24sp"
+                android:textColor="@color/hitam"
+                android:textStyle="bold"
+                android:layout_marginBottom="24sp"
+                android:layout_marginTop="24sp"
+                android:fontFamily="casual"
+                android:textSize="30sp"
+                android:text="RUKUN IMAN"
+                android:gravity="center_horizontal"></TextView>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp">
+                    <TextView
+                        android:layout_column="1"
+                        android:text="(1)"
+                        android:textColor="@color/hitam"
+                        android:padding="3sp"
+                        />
+                    <TextView
+                        android:textColor="@color/hitam"
+                        android:text="Iman kepada Allah Ta'ala."></TextView>
+                </TableRow>
+                <TableRow
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp">
+                    <TextView
+                        android:layout_column="1"
+                        android:text="(2)"
+                        android:textColor="@color/hitam"
+                        android:padding="3sp"/>
+                    <TextView
+                        android:textColor="@color/hitam"
+                        android:text="Iman kepada para Malaikat." />
+                </TableRow>
+                <TableRow
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp">
+                    <TextView
+                        android:layout_column="1"
+                        android:text="(3)"
+                        android:textColor="@color/hitam"
+                        android:padding="3sp"/>
+                    <TextView
+                        android:textColor="@color/hitam"
+                        android:text="Iman kepada kitab-kitab." />
+                </TableRow>
+                <TableRow
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp">
+                    <TextView
+                        android:layout_column="1"
+                        android:text="(4)"
+                        android:textColor="@color/hitam"
+                        android:padding="3sp"/>
+                    <TextView
+                        android:textColor="@color/hitam"
+                        android:text="Iman kepada Nabi dan Rasul." />
+                </TableRow>
+                <TableRow
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp">
+                    <TextView
+                        android:layout_column="1"
+                        android:text="(5)"
+                        android:textColor="@color/hitam"
+                        android:padding="3sp"/>
+                    <TextView
+                        android:text="Iman kepada hari akhir (kiamat)"
+                        android:textColor="@color/hitam"/>
+                </TableRow>
+                <TableRow
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp">
+                    <TextView
+                        android:layout_column="1"
+                        android:text="(6)"
+                        android:textColor="@color/hitam"
+                        android:padding="3sp"/>
+                    <TextView
+                        android:textColor="@color/hitam"
+                        android:text="Iman kepada Qada dan Qadar."
+                        android:layout_marginBottom="24sp"/>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

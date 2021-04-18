@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="hijau_uin">#308825</color>
+    <color name="hijau_kkn">#2CB885</color>
+    <color name="biruApp">#256988</color>
+    <color name="merahAbout">#AC314E</color>
+    <color name="biruPendidikan">#27AAE2</color>
+    <color name="orangePendidikan">#ECC55C</color>
+    <color name="putih">#FFF</color>
+    <color name="hitam">#000</color>
+</resources>

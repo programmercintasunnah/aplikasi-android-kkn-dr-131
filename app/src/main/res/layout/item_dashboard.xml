@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120sp"
+        android:background="@drawable/radius_panel_menu"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/logo_menu"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/uin"
+            ></ImageView>
+        <TextView
+            android:id="@+id/tv_title_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Judul Menu"></TextView>
+    </LinearLayout>
+</LinearLayout>

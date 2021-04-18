@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_am"
+    tools:context=".DplFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="10sp"
+            android:background="@drawable/radius_panel_menu1"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/foto_dpl"
+                android:layout_width="100sp"
+                android:layout_marginTop="10sp"
+                android:layout_height="100sp"
+                android:src="@drawable/dpl"
+                ></ImageView>
+            <TextView
+                android:id="@+id/nama_dpl"
+                android:textColor="@color/hitam"
+                android:textSize="24sp"
+                android:layout_marginTop="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="INTAN KEMALA, M.Si"></TextView>
+            <TextView
+                android:id="@+id/nip_dpl"
+                android:textSize="22sp"
+                android:layout_marginTop="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="198106122008012017"></TextView>
+            <TextView
+                android:id="@+id/dplku"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:textSize="22sp"
+                android:layout_marginTop="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Dosen Pembimbing Lapangan Group 131"
+                android:layout_marginBottom="10sp"></TextView>
+        </LinearLayout>
+</FrameLayout>

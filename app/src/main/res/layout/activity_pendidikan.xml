@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_am"
+    tools:context=".Pendidikan">
+
+    <RelativeLayout
+        android:id="@+id/rl_pend"
+        android:layout_width="match_parent"
+        android:layout_height="220sp"
+        android:background="@color/orangePendidikan">
+        <ImageView
+            android:id="@+id/imgapp"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:src="@drawable/pendidikan"
+            android:layout_marginTop="30sp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/radius_oval"
+            ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendidikan"
+            android:layout_below="@+id/imgapp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:fontFamily="monospace"
+            android:layout_marginTop="10sp"></TextView>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_pendidikan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_pend"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginLeft="25sp"
+        tools:listitem="@layout/item_pendidikan"></androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
